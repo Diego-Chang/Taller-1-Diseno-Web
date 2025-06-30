@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Bradley-Hand-Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url(BRADHITC.TTF)
+}
+
+@font-face {
+    font-family: "Bradley-Hand-Bold";
+    font-weight: normal;
+    font-style: normal;
+    src: url(bradley-hand-itc-tt-bold.ttf)
+}
+
+* {
+    font-family: "Bradley-Hand-Regular", "segoe script";
+}
+
+body { 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    margin: 0;
+    text-align: center;
+ }
+        
+ footer {
+    margin: 0
+ }
+ 
+ main { 
+    flex: 1;
+ }
+
+.upperToolbar {
+    background-color: #006600;
+    font-weight: bold;
+    color: #F5FFFA;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.upperToolbar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.upperToolbar td {
+    text-align: center;
+    vertical-align: bottom
+}
+
+
+.upperToolbar img {
+    max-height: 200px;
+    max-width: 250px;
+    margin-left: 25px;
+}
+
+.upperToolbar div {
+    text-align: center;
+}
+
+.upperToolbar div a {
+    border-radius: 4px;
+    color: #F5FFFA; 
+    padding: 5px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+}
+
+.upperToolbar div a:hover:not(.active) {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.lowerToolbar {
+    text-align: center;
+    background-color: #006600;
+    font-weight: bold;
+    color: #F5FFFA;
+}
+
+.lowerToolbar a {
+    text-align: center; 
+    display: inline-block; 
+    cursor: pointer;
+}
+
+.lowerToolbar img {
+    max-height: 35px;
+    max-width: 35px;
+    box-shadow: none
+}
+
+.imageTable {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.imageTable h2 {
+    padding-bottom: 50px;
+}
+
+.imageTable table {
+    width: 100%;
+}
+
+.imageTable td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.imageTable p {
+    padding-bottom: 25px;
+}
+
+.imageTable img {
+    max-height: 300px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.images img {
+    max-height: 300px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.pTable {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.pTable td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pNormal {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.pNormal img {
+    max-height: 300px;
+    padding: 20px
+}
+
+.pNormal a {
+    color: green;
+    font-weight: bold;
+}
+
+.slogan {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.homeCreations {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 7px;
+    overflow: auto;
+}
+
+.homeCreations table {
+    width: 100%; 
+}
+
+.homeCreations img {
+    max-height: 300px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.homeCreations h2 {
+    padding-bottom: 20px
+}
+
+.homeCreations a {
+    border-radius: 4px;
+    color: green; 
+    padding: 5px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.homeCreations a:hover:not(.active) {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+span {
+    font-weight: bold;
+    color: green;
+}
